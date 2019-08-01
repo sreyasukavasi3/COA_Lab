@@ -58,7 +58,7 @@ out:	lw $a0, 0($t0)
 .globl main
 main:
     la $a0, array
-    addi $0, 0
+    addi $0, $0, 0
     addi $sp, $sp -4
     jal swap
     li $v0,10
