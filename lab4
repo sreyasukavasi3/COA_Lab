@@ -53,6 +53,7 @@ out:	lw $a0, 0($t0)
  
  
   2.1: SWAPPING
+  ERROR: The third add i step in swap function accesses the address of the elements in the array. So it shows the error
   .text
 .globl main
 main:
